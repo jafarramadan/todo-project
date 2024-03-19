@@ -3,48 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website</title>
+    <title>ToDo</title>
+    <style>
+        /*body style*/
+        table {
+        border-collapse: collapse;
+        width: 80%;
+        margin: 20px auto;
+        }
+        th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+        }
+        th {
+        background-color: #f2f2f2;
+        }
+        input[type="checkbox"] {
+        transform: scale(1.2);
+        }
+
+        /*header style*/
+        header {
+       display: flex;
+      align-items: center;
+            }
+
+        header h1 {
+     margin-right: auto;   
+            }
+
+            header button {
+         margin-left: 10px;
+
+        </style>
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="img/wl.jfif" alt="Website Logo" width="50">
-            <h1>Your Website</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <!-- Add more navigation links as needed -->
-            </ul>
-        </nav>
+       <img src="img/ToDoLogo.jpg" alt="" height="50px" width="50px">
+       <h1>ToDo</h1>
+       <a href="index.html"><button >Home</button></a>
+      <a href="about.html"> <button>About</button></a>
+      
     </header>
 
     <main>
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>Tasks</th>
-                    <th>Status</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Task 1</td>
-                    <td>Completed</td>
-                </tr>
-                <tr>
-                    <td>Task 2</td>
-                    <td>In Progress</td>
-                </tr>
-                <tr>
-                    <td>Task 3</td>
-                    <td>Not Started</td>
-                </tr>
-                <!-- Add more tasks as needed -->
-            </tbody>
-        </table>
+       <table>
+        <thead>
+            <tr>
+                <th>Tasks</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>lorem ibsum</td>
+                <td><input type="checkbox" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>lorem ibsum</td>
+                <td><input type="checkbox" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>lorem ibsum</td>
+                <td><input type="checkbox" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>lorem ibsum</td>
+                <td><input type="checkbox" name="" id=""></td>
+            </tr>
+        </tbody>
+       </table>
     </main>
 
     <footer>
