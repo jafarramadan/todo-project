@@ -9,10 +9,12 @@ if(userAge<=0){
 let skipWelcome = confirm("Do you want to skip the welcoming message?");
 
 if (!skipWelcome) {
-    if(userGender === 'male'){}
+    if(userGender === 'male'){
    alert("Welcome mr " + userName );
+
 }else if(userGender === 'female'){
     alert("Welcome ms " + userName );
 }else{
     alert("wrong");
+}
 }
